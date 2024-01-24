@@ -94,3 +94,10 @@ header .cart span {
   font-weight: 700;
   background-color: crimson;
 }
+
+/*----------------MEDIA------------------*/
+@media only screen and(max-width: 600px){
+  header ul{
+    
+  }
+}
