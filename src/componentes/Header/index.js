@@ -1,9 +1,26 @@
-import React from 'react'
+import React from 'react';
+import Nike from "../../images/Nike.jpg"
 
 export const Header = () => {
     return (
-        <div>
-            <h1>Header</h1>
-        </div>
+        <header>
+            <a href="#">
+                <div className="logo">
+                    <img src={Nike} alt="logo" width="150"/>
+                </div>
+            </a>
+            <ul>
+                <li>
+                    <a href="#">INICIO</a>
+                </li>
+                <li>
+                    <a href="#">PRODUCTOS</a>
+                </li>
+                <div className="cart">
+                    <box-icon name="cart"></box-icon>
+                    <span className="item__total">0</span>
+                </div>
+            </ul>
+        </header>
     )
 }
